@@ -1,0 +1,100 @@
+.contacts {
+    padding: 1em;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+h2 {
+    color: rgba(0, 0, 0, 0.644);
+    padding: 0.5em;
+    text-align: center;
+}
+
+.contacts__header {
+    background-color: rgba(173, 216, 230, 0.9);
+    border-radius: 30% 30% 0 0;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts__searchbox {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 20px;
+    border-collapse: collapse;
+    margin: 1.5em auto;
+}
+
+.contacts__searchbox input {
+    height: 35px;
+    display: inline-block;
+    border: none;
+    background-color: white;
+    border-radius: 20px 0 0 20px;
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+.search__button {
+	background-color: rgba(0, 0, 0, 0.1) !important;
+    border-radius: 0 20px 20px 0 !important;
+    cursor: pointer;
+}
+
+.search__button:hover {
+	background-color: rgb(81, 81, 214) !important;
+    color: white;
+}
+
+.contacts__searchbox input:hover {
+    border: none;
+}
+
+.addContact__button {
+    cursor:pointer;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(76, 118, 235);
+}
+
+.addContact__button:hover {
+    background-color: rgb(35, 83, 218);
+}
+
+/* Contacts container */
+.contacts__container {
+    padding: 1em;
+    background-color: rgba(173, 217, 230, 0.9);
+}
+
+.empty {
+    text-align: center;
+}
+
+@media(max-width: 920px) {
+
+    .contacts__searchbox {
+        width: 90%;
+        margin: 1.5em auto;
+    }
+
+    .contacts__searchbox input {
+        width: 70%;
+        height: 35px;
+        border-radius: 20px 0 0 20px;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    
+    .search__button {
+        width: 30% !important;
+        border-radius: 0 20px 20px 0 !important;
+    }
+}
+

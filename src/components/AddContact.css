@@ -1,0 +1,79 @@
+.addcontact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+}
+
+h2 {
+    color: rgba(0, 0, 0, 0.644);
+    padding: 0.5em;
+}
+
+.form__container {
+    width: 100%;
+    padding: 1em 0.5em;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+
+.form__inputs {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.form__inputs label {
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.form__inputs input{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 30px;
+    width: 90%;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+input:hover, textarea:hover {
+    border-left: 2px solid #8870C9;
+}
+
+.address__text {
+    height: 70px;
+    overflow-y: auto;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 90% !important;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.form__submit {
+    background: #48A44C 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    height: 32px;
+    width: 90px;
+    color: white;
+    border: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.form__error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+

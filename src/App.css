@@ -1,0 +1,32 @@
+.App {
+	height: 100vh;
+	max-height: 100vh !important;
+	background: rgb(236, 236, 236);
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin: auto;
+	overflow: auto;
+}
+
+header {
+	background-color: #282c34;
+	text-align: center;
+	border-radius: 0 0 50% 50%;
+}
+
+.App__header {
+	text-decoration: none;
+}
+
+.App h1 {
+	color: white;
+	padding: 1em;
+}
+
+
+@media(max-width: 920px) {
+	.App {
+		width: 100%;
+	}
+}
