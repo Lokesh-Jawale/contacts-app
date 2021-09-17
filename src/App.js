@@ -3,7 +3,6 @@ import './App.css';
 import { HashRouter as Router, Route, Switch, Link } from "react-router-dom";
 import Contacts from './components/Contacts';
 import AddContact from './components/AddContact';
-import Details from './components/Details';
 
 function App() {
 

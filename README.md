@@ -1,9 +1,11 @@
 # Contacts App
-[Click to open the app]()
+[Click to open the app](https://Lokesh-Jawale.github.io/contacts-app)
+(https://Lokesh-Jawale.github.io/contacts-app)
 
 ## Preview images of app
 ### Preview
 ![Preview image of Form tab](https://github.com/Lokesh-Jawale/contacts-app/blob/master/src/images/home.png)
+
 ![Preview image of Table tab](https://github.com/Lokesh-Jawale/contacts-app/blob/master/src/images/addform.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
